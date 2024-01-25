@@ -19,3 +19,14 @@ Make sure you have a C++ compiler installed on your system.
    ```bash
    g++ server.c -o server.exe -lws2_32
    ./server.exe
+##Enter the IP address as : 127.0.0.1 and Port number as 8888
+
+### Compiling and Running the Client
+
+1. Open a terminal.
+
+2. Compile the Client program using the following command:
+
+   ```bash
+   g++ Client.c -o Client.exe -lws2_32
+   ./Client.exe
